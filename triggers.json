@@ -21,6 +21,10 @@
     	"triggers": ["warehouse", "wh_register", "wh-register"],
     	"text": "**Wrong server!**\n\nFor any questions or comments about GH3PC online, please join the Warehouse server.\nhttps://discord.gg/fwkQmPGtfa"
     },
+    "response6": {
+    	"triggers": ["port", "online"],
+    	"text": "All of the information neccessary for Guitar Hero 3 PC Online can be found here\n\nhttps://wiki.aiwarehouse.xyz/en/gh3-pc-guide"
+    },
     "response10": {
         "triggers": ["encore"],
         "text": "# Also try encore, A Fortnite Festival inspired rhythm game!\nhttps://discord.gg/GhkgVUAC9v\nhttps://github.com/Encore-Developers/Encore",

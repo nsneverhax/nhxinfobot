@@ -9,6 +9,11 @@
     	"text": "-#**NEEDS TO BE TRANSLATED**\n**Wrong server!**\n\nFor any questions or comments about GH3PC online, please join the Warehouse server.\nhttps://discord.gg/fwkQmPGtfa",
     	"link": "response5"
     },
+    "response6": {
+    	"triggers": ["port", "online"],
+    	"text": "-# **NEEDS TRANSLATION**\nAll of the information neccessary for Guitar Hero 3 PC Online can be found here\n\nhttps://wiki.aiwarehouse.xyz/en/gh3-pc-guide",
+    	"link": "response6"
+    },
     "response24": {
         "triggers": ["nautilus", "c3contools", "c3tools"],
         "text": "# Última versão do Nautilus, o seu [GitHub](<https://github.com/trojannemo/Nautilus/releases/latest>) ou do [Nemo](<https://nemosnautilus.com/nautilus/>) \nPode se juntar ao servidor do Discord aqui: https://discord.gg/ydGmRyKGVW",
