@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -U discord.py requests
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-ENV REPO_URL="https://github.com/metriccepheid/nhxinfobot"
+ENV REPO_URL="https://github.com/nsneverhax/nhxinfobot"
 ENV APP_DIR="/opt/nhxinfobot"
 
 ENTRYPOINT ["/entrypoint.sh"]
