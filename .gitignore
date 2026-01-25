@@ -2,3 +2,5 @@
 config.json
 __pycache__
 .DS_Store
+triggers_esl_og.json
+triggers_ptbr_og.json

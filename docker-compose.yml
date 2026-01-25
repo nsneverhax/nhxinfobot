@@ -1,13 +1,13 @@
 services:
-  mhxinfobot:
+  nhxinfobot:
     build: .
-    container_name: mhxinfobot
+    container_name: nhxinfobot
     restart: unless-stopped
     environment:
       - TZ=America/Chicago
     volumes:
-      - mhx_repo:/opt/mhxinfobot
-      - ${HOME}/configs/mhxinfobot/config.json:/config/config.json:ro
+      - nhx_repo:/opt/nhxinfobot
+      - ${HOME}/configs/nhxinfobot/config.json:/config/config.json:ro
 
 volumes:
-  mhx_repo:
+  nhx_repo:
