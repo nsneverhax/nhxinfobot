@@ -5,7 +5,7 @@
 	},
     "response2": {
         "triggers": ["infobot"],
-        "text": "# NeverHax Info Bot\nhttps://github.com/MetricCepheid/nhxinfobot",
+        "text": "# NeverHax Info Bot\nhttps://github.com/nsneverhax/nhxinfobot",
         "files": []
     },
     "response3": {
