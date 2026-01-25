@@ -10,7 +10,7 @@
     	"link": "response5"
     },
     "response6": {
-    	"triggers": ["port", "online"],
+    	"triggers": ["gh3online", "gh3pconline", "port", "online"],
     	"text": "-# **NEEDS TRANSLATION**\nAll of the information neccessary for Guitar Hero 3 PC Online can be found here\n\nhttps://wiki.aiwarehouse.xyz/en/gh3-pc-guide",
     	"link": "response6"
     },
