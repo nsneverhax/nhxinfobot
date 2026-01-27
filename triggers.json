@@ -25,6 +25,18 @@
     	"triggers": ["gh3online", "gh3pconline", "port", "online"],
     	"text": "All of the information neccessary for Guitar Hero 3 PC Online can be found here\n\nhttps://wiki.aiwarehouse.xyz/en/gh3-pc-guide"
     },
+    "response7": {
+    	"triggers": ["gh3crowd"],
+    	"text": "-# [crowd.webp](https://metriccepheid.online/media/gifs/crowd.webp)"
+    },
+    "response8": {
+    	"triggers": ["gh3frontrow"],
+    	"text": "-# [front_row_camera.webp](https://metriccepheid.online/media/gifs/front_row_camera.webp)"
+    },
+    "response9": {
+    	"triggers": ["gh3graphics"],
+    	"text": "-# [graphics_detail.webp](https://metriccepheid.online/media/gifs/graphics_detail.webp)"
+    },
     "response10": {
         "triggers": ["encore"],
         "text": "# Also try encore, A Fortnite Festival inspired rhythm game!\nhttps://discord.gg/GhkgVUAC9v\nhttps://github.com/Encore-Developers/Encore",
@@ -231,7 +243,7 @@
     },
     "response114": {
     	"triggers": ["alltaps", "kbstrum", "forcetaps"],
-    	"text": "If you want to play BetterGH3 or GH3+ PC with your keyboard, download this `.dll` file and drag it into the `PLUGINS` folder.\n-# [tapplugin.gif](https://metriccepheid.online/media/tapplugin.gif)",
+    	"text": "If you want to play BetterGH3 or GH3+ PC with your keyboard, download this `.dll` file and drag it into the `PLUGINS` folder.\n-# [tapplugin.gif](https://metriccepheid.online/media/gifs/tapplugin.gif)",
     	"files": ["media/ForceTapNotes.dll"]
     },
     "response115": {
