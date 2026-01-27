@@ -30,7 +30,7 @@
     	"text": "-# [gh3_settings.webp](https://metriccepheid.online/media/gifs/gh3_settings.webp)"
     },
     "response8": {
-    	"triggers": ["gh3debug"],
+    	"triggers": ["bgh3debug"],
     	"text": "-# [gh3debug.webp](https://metriccepheid.online/media/gifs/gh3debug.webp)"
     },
     "response10": {
