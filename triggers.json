@@ -26,16 +26,12 @@
     	"text": "All of the information neccessary for Guitar Hero 3 PC Online can be found here\n\nhttps://wiki.aiwarehouse.xyz/en/gh3-pc-guide"
     },
     "response7": {
-    	"triggers": ["gh3crowd"],
-    	"text": "-# [crowd.webp](https://metriccepheid.online/media/gifs/crowd.webp)"
+    	"triggers": ["gh3settings"],
+    	"text": "-# [gh3_settings.webp](https://metriccepheid.online/media/gifs/gh3_settings.webp)"
     },
     "response8": {
-    	"triggers": ["gh3frontrow"],
-    	"text": "-# [front_row_camera.webp](https://metriccepheid.online/media/gifs/front_row_camera.webp)"
-    },
-    "response9": {
-    	"triggers": ["gh3graphics"],
-    	"text": "-# [graphics_detail.webp](https://metriccepheid.online/media/gifs/graphics_detail.webp)"
+    	"triggers": ["gh3debug"],
+    	"text": "-# [gh3debug.webp](https://metriccepheid.online/media/gifs/gh3debug.webp)"
     },
     "response10": {
         "triggers": ["encore"],
