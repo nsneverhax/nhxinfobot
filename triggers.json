@@ -33,6 +33,10 @@
     	"triggers": ["bgh3debug"],
     	"text": "-# [gh3debug.webp](https://metriccepheid.online/media/gifs/gh3debug.webp)"
     },
+    "response9": {
+    	"triggers": ["encorecrash", "battlecrash", "onlinecrash"],
+    	"text": "-# [encorecrashing.webp](https://metriccepheid.online/media/gifs/encorecrashing.webp)"
+    },
     "response10": {
         "triggers": ["encore"],
         "text": "# Also try encore, A Fortnite Festival inspired rhythm game!\nhttps://discord.gg/GhkgVUAC9v\nhttps://github.com/Encore-Developers/Encore",
