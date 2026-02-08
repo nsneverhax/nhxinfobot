@@ -49,7 +49,7 @@
 	},
 	"response12": {
 		"triggers": ["characterlimit", "83limit", "longpath"],
-		"text": "make sure your file path isn't too long, make sure it's at least under 83 characters in length\nkeep note that it takes literally every character, **including spaces**, into consideration for that length\n\nexample\n`C:\\users\\username\\Documents\\games\\GHIII` *39 characters* - Completely fine\n`C:\\users\\username\\Documents\\games\\GH3\\BetterGH3-FULLPACKAGE_v1.0\\Guitar Hero III Legends of Rock PC Edition` *107 characters* - TOO LONG"
+		"text": "Make sure your file path isn't too long, keep it at least under 83 characters in length\nNote that it takes literally every character, **including spaces**, into consideration for that length\n\nexample\n`C:\\users\\username\\Documents\\games\\GHIII` *39 characters* - Completely fine\n`C:\\users\\username\\Documents\\games\\GH3\\BetterGH3-FULLPACKAGE_v1.0\\Guitar Hero III Legends of Rock PC Edition` *107 characters* - TOO LONG"
 	},
 	"response13": {
 		"triggers": ["optionalfixes", "d3dx9_35.dll", "gh3.exe-systemerror"],
