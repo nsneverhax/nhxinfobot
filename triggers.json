@@ -19,7 +19,7 @@
     },
     "response5": {
     	"triggers": ["warehouse", "wh_register", "wh-register"],
-    	"text": "**Wrong server!**\n\nFor any questions or comments about GH3PC online, please join the Warehouse server.\nhttps://discord.gg/fwkQmPGtfa"
+    	"text": "**Wrong server!**\n\nYou have to join the Warehouse server to create an account!\nhttps://discord.gg/fwkQmPGtfa"
     },
     "response6": {
     	"triggers": ["gh3online", "gh3pconline", "port", "online"],
@@ -42,6 +42,19 @@
         "text": "# Also try encore, A Fortnite Festival inspired rhythm game!\nhttps://discord.gg/GhkgVUAC9v\nhttps://github.com/Encore-Developers/Encore",
         "files": []
     },
+    "response11": {
+    	"triggers": ["hidhide"],
+    	"text": "## This is for PS4 specific guitars\n1. Install vigembus and HIDHide\n2. Plug in your PS4 guitar\n3. run HIDHide, and under Devices, enable device hiding, and hide your guitar.\n4. Unplug and replug your guitar when it asks\n5. under Applications in HIDHide, add clipper\n6. Run clipper, make sure its the latest version\n7. Run bettergh3, it should just work assuming you have the latest version",
+		"files": ["media/hidhide[a].png", "media/hidhide[b].png"]
+	},
+	"response12": {
+		"triggers": ["characterlimit", "83limit", "longpath"],
+		"text": "make sure your file path isn't too long. make sure it's under 83 characters at least\n\nexample\n``C:\users\username\Documents\games\GHIII`` < 39 characters (Completely fine)\n``C:\users\username\Documents\games\GH3\BetterGH3-FULLPACKAGE_v1.0\Guitar Hero III Legends of Rock PC Edition`` < 107 characters (TOO LONG)\n\nKeep note that it takes literally every character, **including spaces**, into consideration for that length"
+	},
+	"response13": {
+		"triggers": ["optionalfixes", "d3dx9_35.dll", "gh3.exe-systemerror"],
+		"text": "go into the optional fixes folder and run the `fix startup issues` file\nproceed through the setups\n-# [fixstartupissues.webp](https://metriccepheid.online/media/gifs/fixstartupissues.webp)"
+	},
     "response15": {
         "triggers": ["hammers"],
         "text": "-# [hammers.mp4](https://metriccepheid.online/media/hammers.mp4)"
