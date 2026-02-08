@@ -1,11 +1,11 @@
 {
 	"response1": {
 		"triggers": ["spreadsheet", "clones", "clonespreadsheet"],
-		"text": "Check out this spreadsheet created by MetricCepheid that preserves old/new and other clones that may have never seen the light of day before.\n\nhttps://docs.google.com/spreadsheets/d/1dVs9DKb4bZKWIqGN1hhuxyi6499E9Ens_PYcIHPYii8/view"
+		"text": "Check out this spreadsheet created by MetricCepheid that preserves old/new and other clones that may have never seen the light of day before.\n\nhttps://docs.google.com/spreadsheets/d/1dVs9DKb4bZKWIqGn1hhuxyi6499E9Ens_PYcIHPYii8/view"
 	},
     "response2": {
         "triggers": ["infobot"],
-        "text": "# NeverHax Info Bot\nhttps://github.com/nsneverhax/nhxinfobot",
+        "text": "# neverHax Info Bot\nhttps://github.com/nsneverhax/nhxinfobot",
         "files": []
     },
     "response3": {
@@ -49,7 +49,7 @@
 	},
 	"response12": {
 		"triggers": ["characterlimit", "83limit", "longpath"],
-		"text": "make sure your file path isn't too long. make sure it's under 83 characters at least\n\nexample\n``C:\users\username\Documents\games\GHIII`` < 39 characters (Completely fine)\n``C:\users\username\Documents\games\GH3\BetterGH3-FULLPACKAGE_v1.0\Guitar Hero III Legends of Rock PC Edition`` < 107 characters (TOO LONG)\n\nKeep note that it takes literally every character, **including spaces**, into consideration for that length"
+		"text": "make sure your file path isn't too long, make sure it's at least under 83 characters in length\nkeep note that it takes literally every character, **including spaces**, into consideration for that length\n\nexample\n`C:\\users\\username\\Documents\\games\\GHIII` *39 characters* - Completely fine\n`C:\\users\\username\\Documents\\games\\GH3\\BetterGH3-FULLPACKAGE_v1.0\\Guitar Hero III Legends of Rock PC Edition` *107 characters* - TOO LONG"
 	},
 	"response13": {
 		"triggers": ["optionalfixes", "d3dx9_35.dll", "gh3.exe-systemerror"],
@@ -65,7 +65,7 @@
     },
     "response24": {
         "triggers": ["nautilus", "c3contools", "c3tools"],
-        "text": "# Latest Nautilus\nGet it from [GitHub](<https://github.com/trojannemo/Nautilus/releases/latest>) or from [Nemo's Nautilus](<https://nemosnautilus.com/nautilus/>)\nJoin the Discord server here: https://discord.gg/ydGmRyKGVW",
+        "text": "# Latest nautilus\nGet it from [GitHub](<https://github.com/trojannemo/nautilus/releases/latest>) or from [nemo's nautilus](<https://nemosnautilus.com/nautilus/>)\nJoin the Discord server here: https://discord.gg/ydGmRyKGVW",
         "files": []
     },
     "response26": {
@@ -75,7 +75,7 @@
     },
     "response28": {
         "triggers": ["quickconvert", "batchprocess", "recompile"],
-        "text": "Batch recompile, Load a song, and Batch process, all rebuild the songs from scratch, losing all metadata originally associated with the song.\nThis means the song will not be correct for leaderboards, online play, or dx song upgrades (harmonies, pro upgrades, rb4 chart updates).\n**Never recompile songs already existing in Rock Band format back to Rock Band.**",
+        "text": "Batch recompile, Load a song, and Batch process, all rebuild the songs from scratch, losing all metadata originally associated with the song.\nThis means the song will not be correct for leaderboards, online play, or dx song upgrades (harmonies, pro upgrades, rb4 chart updates).\n**never recompile songs already existing in Rock Band format back to Rock Band.**",
         "files": ["media/quickconvert.png", "media/quickconvert2.png"]
     },
     "response29": {
@@ -84,7 +84,7 @@
     },
     "response31": {
         "triggers": ["bettergha", "bgha"],
-        "text": "# Better Guitar Hero Aerosmith\nMade by enter_gh\nhttps://youtu.be/3GOg-N5RCs0"
+        "text": "# Better Guitar Hero Aerosmith\nMade by enter_gh\nhttps://youtu.be/3GOg-n5RCs0"
     },
     "response33": {
         "triggers": ["fastgh3", "fgh3"],
@@ -132,7 +132,7 @@
     },
     "response50": {
         "triggers": ["xenia"],
-        "text": "Xenia is not recommended at all for Neversoft rhythm games due to the XMA decoding not properly being implemented and performance issues.",
+        "text": "Xenia is not recommended at all for neversoft rhythm games due to the XMA decoding not properly being implemented and performance issues.",
         "files": []
     },
     "response51": {
@@ -248,7 +248,7 @@
     },
     "response112": {
     	"triggers": ["clones", "clonespreadsheet"],
-    	"text": "Looking for more Guitar Hero/Rock Band clones to spice up your library?\nCheck out this clone preservation spreadsheet where you can find a bunch of old/unreleased/active clones that you might not have ever heard of!\n\nhttps://docs.google.com/spreadsheets/d/1dVs9DKb4bZKWIqGN1hhuxyi6499E9Ens_PYcIHPYii8/view"
+    	"text": "Looking for more Guitar Hero/Rock Band clones to spice up your library?\nCheck out this clone preservation spreadsheet where you can find a bunch of old/unreleased/active clones that you might not have ever heard of!\n\nhttps://docs.google.com/spreadsheets/d/1dVs9DKb4bZKWIqGn1hhuxyi6499E9Ens_PYcIHPYii8/view"
     },
     "response113": {
     	"triggers": ["skillissuegh3"],
@@ -256,12 +256,12 @@
     },
     "response114": {
     	"triggers": ["alltaps", "kbstrum", "forcetaps"],
-    	"text": "If you want to play BetterGH3 or GH3+ PC with your keyboard, download this `.dll` file and drag it into the `PLUGINS` folder.\n-# [tapplugin.gif](https://metriccepheid.online/media/gifs/tapplugin.gif)",
-    	"files": ["media/ForceTapNotes.dll"]
+    	"text": "If you want to play BetterGH3 or GH3+ PC with your keyboard, download this `.dll` file and drag it into the `PLUGInS` folder.\n-# [tapplugin.gif](https://metriccepheid.online/media/gifs/tapplugin.gif)",
+    	"files": ["media/ForceTapnotes.dll"]
     },
     "response115": {
     	"triggers": ["vanillakbstrum"],
-    	"text": "## How to play Vanilla Guitar Hero PC on a keyboard without strumming\n**Translated version of a guide written by Naonemeu.**\n\n1. Download Xoutput - <https://github.com/csutorasa/XOutput>\n\n2. **Before opening Xoutput**, download the needed dependencies:\n  * [ViGEmBus](<https://github.com/nefarius/ViGEmBus/releases>)\n  * [DirectX](<https://www.microsoft.com/en-us/download/details.aspx?id=35>)\n  * [.NET 7 ASP.NET and Desktop runtime](<https://dotnet.microsoft.com/en-us/download/dotnet/7.0>)\n\n3. Open xoutput.exe\n4. In the 'Game Controllers' section , click 'Edit'\n\n5. In the controls window, remap your keys according to this:\n```LT is Green\nLB is Red\nRB is Yellow\nRT is Blue\nA  is Orange.\nMap D-Pad to the arrow keys\n'Back' is Star Power\n'RX' is whammy (configure your deadzone to make it not distort all the time)```\n-# RX is Right Joystick on the X axis\n\nB is back, X is Bonus and Y is Setlist.\n\nAt the end of the tab, click Start controller with the program.\n6. Click on Start to start your virtual controller, and run your game."
+    	"text": "## How to play Vanilla Guitar Hero PC on a keyboard without strumming\n**Translated version of a guide written by naonemeu.**\n\n1. Download Xoutput - <https://github.com/csutorasa/XOutput>\n\n2. **Before opening Xoutput**, download the needed dependencies:\n  * [ViGEmBus](<https://github.com/nefarius/ViGEmBus/releases>)\n  * [DirectX](<https://www.microsoft.com/en-us/download/details.aspx?id=35>)\n  * [.nET 7 ASP.nET and Desktop runtime](<https://dotnet.microsoft.com/en-us/download/dotnet/7.0>)\n\n3. Open xoutput.exe\n4. In the 'Game Controllers' section , click 'Edit'\n\n5. In the controls window, remap your keys according to this:\n```LT is Green\nLB is Red\nRB is Yellow\nRT is Blue\nA  is Orange.\nMap D-Pad to the arrow keys\n'Back' is Star Power\n'RX' is whammy (configure your deadzone to make it not distort all the time)```\n-# RX is Right Joystick on the X axis\n\nB is back, X is Bonus and Y is Setlist.\n\nAt the end of the tab, click Start controller with the program.\n6. Click on Start to start your virtual controller, and run your game."
     },
     "response116": {
         "triggers": ["ghpcsave"],
