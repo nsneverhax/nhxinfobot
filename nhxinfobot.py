@@ -14,7 +14,7 @@ from collections import defaultdict, deque, Counter
 import asyncio
 
 # --- Spam watchdog config ---
-SPAM_REPORT_CHANNEL_ID = 1328184167850053793
+SPAM_REPORT_CHANNEL_ID = 1327921902223884362
 
 SPAM_WINDOW_SECONDS = 9
 SPAM_MIN_MESSAGES = 3
