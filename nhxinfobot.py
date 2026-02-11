@@ -13,6 +13,10 @@ from collections import defaultdict, deque, Counter
 import asyncio
 from datetime import datetime, timedelta, timezone
 
+# Load the config file
+with open('config.json') as config_file:
+    config = json.load(config_file)
+
 # --- Spam watchdog config ---
 SPAM_REPORT_CHANNEL_ID = 1327921902223884362
 
@@ -89,10 +93,6 @@ def get_decomp_info():
         f"**{frogress_data['measures']['matched_functions'] / frogress_data['measures']['matched_functions/total'] * 100:.2f}%** matching functions\n\n"
         "<https://rb3dx.milohax.org/decomp>"
     )
-
-# Load the config file
-with open('config.json') as config_file:
-    config = json.load(config_file)
 
 GITHUB_TOKEN = config.get('github_token')
 HEADERS = {'Authorization': f'token {GITHUB_TOKEN}', 'Accept': 'application/vnd.github.v3+json'}
