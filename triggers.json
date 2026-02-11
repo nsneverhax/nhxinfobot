@@ -5,7 +5,7 @@
 	},
     "response2": {
         "triggers": ["infobot"],
-        "text": "# neverHax Info Bot\nhttps://github.com/nsneverhax/nhxinfobot",
+        "text": "# NeverHax Info Bot\nhttps://github.com/nsneverhax/nhxinfobot",
         "files": []
     },
     "response3": {
@@ -65,7 +65,7 @@
     },
     "response24": {
         "triggers": ["nautilus", "c3contools", "c3tools"],
-        "text": "# Latest nautilus\nGet it from [GitHub](<https://github.com/trojannemo/nautilus/releases/latest>) or from [nemo's nautilus](<https://nemosnautilus.com/nautilus/>)\nJoin the Discord server here: https://discord.gg/ydGmRyKGVW",
+        "text": "# Latest nautilus\nGet it from [GitHub](<https://github.com/trojannemo/nautilus/releases/latest>) or from [Nemo's nautilus](<https://nemosnautilus.com/nautilus/>)\nJoin the Discord server here: https://discord.gg/ydGmRyKGVW",
         "files": []
     },
     "response26": {
@@ -256,8 +256,8 @@
     },
     "response114": {
     	"triggers": ["alltaps", "kbstrum", "forcetaps"],
-    	"text": "If you want to play BetterGH3 or GH3+ PC with your keyboard, download this `.dll` file and drag it into the `PLUGInS` folder.\n-# [tapplugin.gif](https://metriccepheid.online/media/gifs/tapplugin.gif)",
-    	"files": ["media/ForceTapnotes.dll"]
+    	"text": "If you want to play BetterGH3 or GH3+ PC with your keyboard, download this `.dll` file and drag it into the `PLUGINS` folder.\n-# [tapplugin.gif](https://metriccepheid.online/media/gifs/tapplugin.gif)",
+    	"files": ["media/ForceTapNotes.dll"]
     },
     "response115": {
     	"triggers": ["vanillakbstrum"],
