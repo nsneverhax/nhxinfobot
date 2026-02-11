@@ -1,4 +1,3 @@
-from datetime import datetime
 import discord
 import json
 import os
@@ -12,6 +11,7 @@ import requests
 from discord.ext import tasks
 from collections import defaultdict, deque, Counter
 import asyncio
+from datetime import datetime, timedelta, timezone
 
 # --- Spam watchdog config ---
 SPAM_REPORT_CHANNEL_ID = 1327921902223884362
@@ -78,7 +78,7 @@ def get_decomp_info():
     # remove wrapper sludge
     frogress_data = frogress_json['rb3']['SZBE69_B8']['dol'][0]
     # Parse the timestamp into a datetime object
-    dt = datetime.utcfromtimestamp(frogress_data['timestamp'])
+    dt = datetime.fromtimestamp(frogress_data['timestamp'], tz=timezone.utc)
     decomp_commit_time = dt.strftime("%B %d %Y, %I:%M:%S %p")
     return (
         f"# Rock Band 3 Decompilation\n"
@@ -463,7 +463,7 @@ async def check_actions_staleness():
 
         latest = runs[0]
         run_id = latest["id"]
-        created = datetime.fromisoformat(latest["created_at"].rstrip("Z"))
+        created = datetime.fromisoformat(latest["created_at"].replace("Z", "+00:00"))
 
         # ✅ Check if that run has any artifacts
         artifacts_url = f"https://api.github.com/repos/{owner}/{name}/actions/runs/{run_id}/artifacts"
@@ -474,7 +474,7 @@ async def check_actions_staleness():
         if not artifact_data.get("artifacts"):  # skip repos with no artifacts
             continue
 
-        if (datetime.utcnow() - created).days >= 89:
+        if (datetime.now(timezone.utc) - created).days >= 89:
             display = name if owner == "nsneverhax" else f"{owner}/{name}"
             stale.append((display, created.date(), latest["html_url"]))
 
@@ -604,7 +604,7 @@ async def send_long_message(channel, text):
         await channel.send(text)
 
 def _now_utc():
-    return datetime.utcnow()
+    return datetime.now(timezone.utc)
 
 def _normalize_text(s: str) -> str:
     s = (s or "").strip().lower()
@@ -908,7 +908,11 @@ def _is_new_member(member: discord.Member) -> bool:
         return False
     if not getattr(member, "joined_at", None):
         return False
-    delta = datetime.utcnow() - member.joined_at.replace(tzinfo=None)
+    joined = member.joined.at
+    if joined.tzinfo is None:
+        joined = joined.replace(tzinfo=timezone.utc)
+
+    delta = datetime.now(timezone.utc) - joined
     return delta.days <= SCAM_PITCH_NEW_MEMBER_MAX_DAYS
 
 def _scam_pitch_allowed_in_channel(channel_id: int) -> bool:
