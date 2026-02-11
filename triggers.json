@@ -55,6 +55,11 @@
 		"triggers": ["optionalfixes", "d3dx9_35.dll", "gh3.exe-systemerror"],
 		"text": "go into the optional fixes folder and run the `fix startup issues` file\nproceed through the setups\n-# [fixstartupissues.webp](https://metriccepheid.online/media/gifs/fixstartupissues.webp)"
 	},
+	"response14": {
+		"triggers": ["archive"],
+		"text": "Want to learn more about Harmonix games? Check out the [[Archive]](https://docs.google.com/spreadsheets/d/1nMnaiGtHLin-BVsBqc7_vNysCui0jy8oYY-UICtHidg/)",
+		"files": []
+	},
     "response15": {
         "triggers": ["hammers"],
         "text": "-# [hammers.mp4](https://metriccepheid.online/media/hammers.mp4)"
