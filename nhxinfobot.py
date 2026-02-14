@@ -20,7 +20,7 @@ with open('config.json') as config_file:
 # --- Spam watchdog config ---
 SPAM_REPORT_CHANNEL_ID = 1327921902223884362
 
-SPAM_WINDOW_SECONDS = 9
+SPAM_WINDOW_SECONDS = 12
 SPAM_MIN_MESSAGES = 3
 SPAM_MIN_CHANNELS = 3
 
@@ -37,7 +37,6 @@ SCAM_PITCH_ENABLED = True
 
 SCAM_PITCH_MIN_TEXT_LEN = 280          # long pitchy posts
 SCAM_PITCH_MIN_SCORE = 7               # tune this
-SCAM_PITCH_NEW_MEMBER_MAX_DAYS = 14    # only punish new joiners
 
 # If you want to only enforce in certain channels, set this list.
 # Leave empty to enforce everywhere except SPAM_REPORT_CHANNEL_ID.
@@ -790,7 +789,7 @@ async def spam_watchdog(message: discord.Message) -> bool:
             member = message.author if isinstance(message.author, discord.Member) else None
 
             # Guardrails: only auto-action on new members (reduce false positives)
-            if member and _is_new_member(member):
+            if member:
                 score = _scam_pitch_score(message)
                 if score >= SCAM_PITCH_MIN_SCORE:
                     _last_spam_action[key] = now
@@ -902,18 +901,6 @@ def _scam_pitch_score(message: discord.Message) -> int:
         score += 1
 
     return score
-
-def _is_new_member(member: discord.Member) -> bool:
-    if not member:
-        return False
-    if not getattr(member, "joined_at", None):
-        return False
-    joined = member.joined.at
-    if joined.tzinfo is None:
-        joined = joined.replace(tzinfo=timezone.utc)
-
-    delta = datetime.now(timezone.utc) - joined
-    return delta.days <= SCAM_PITCH_NEW_MEMBER_MAX_DAYS
 
 def _scam_pitch_allowed_in_channel(channel_id: int) -> bool:
     if not SCAM_PITCH_CHANNEL_ALLOWLIST:
