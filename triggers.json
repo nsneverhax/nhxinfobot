@@ -35,7 +35,7 @@
     },
     "response9": {
     	"triggers": ["encorecrash", "battlecrash", "onlinecrash"],
-    	"text": "-# [encorecrashing.webp](https://metriccepheid.online/media/gifs/encorecrashing.webp)"
+    	"text": "If your game (BGH3) is crashing in career mode or freezing in Online, try putting the `NoteLimitFix.dll` file from the PLUGINS folder into the Disabled folder.\n-# [encorecrashing.webp](https://metriccepheid.online/media/gifs/encorecrashing.webp)"
     },
     "response10": {
         "triggers": ["encore"],
