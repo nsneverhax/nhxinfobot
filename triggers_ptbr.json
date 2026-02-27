@@ -1,7 +1,7 @@
 {
 	"response1": {
 		"triggers": ["spreadsheet", "clones", "clonespreadsheet"],
-		"text": "Esta planilha criada pelo MetricCepheid preserva os novos e os antigos clones do Guitar Hero, até mesmos aqueles que nunca viram a luz do dia.\n\nhttps://docs.google.com/spreadsheets/d/1dVs9DKb4bZKWIqGN1hhuxyi6499E9Ens_PYcIHPYii8/view",
+		"text": "Esta planilha criada pelo MetricCepheid preserva os novos e os antigos clones do Guitar Hero, até mesmos aqueles que nunca viram a luz do dia.\n\nhttps://docs.google.com/spreadsheets/d/1dVs9DKb4bZKWIqGN1hhuxyi6499E9Ens_PYcIHPYii8/edit?usp=sharing",
 		"link": "response1"
 	},
     "response5": {
