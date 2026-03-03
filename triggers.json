@@ -105,7 +105,7 @@
         "files": []
     },
     "response38": {
-        "triggers": ["skillissue", "calibration", "calibrating", "calibrate"],
+        "triggers": ["calibration", "calibrating", "calibrate"],
         "text": "If you are playing BetterGH3 and you can't find the ''calibrate'', this is due to game restrictions not allowing automatic calibration with the audio and video lag options being separate.\nYou will have to calibrate manually, you can watch this video to learn how.\n\nhttps://www.youtube.com/watch?v=EFwn-2V_vIQ"
     },
     "response41": {
