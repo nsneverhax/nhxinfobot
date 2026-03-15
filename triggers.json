@@ -1,6 +1,6 @@
 {
 	"response1": {
-		"triggers": ["spreadsheet", "clones", "clonespreadsheet"],
+		"triggers": ["nhxarchive"],
 		"text": "Looking for more Guitar Hero/Rock Band clones to spice up your library?\nCheck out this clone preservation spreadsheet where you can find a bunch of old/unreleased/active clones that you might not have ever heard of!\n\nhttps://docs.google.com/spreadsheets/d/1dVs9DKb4bZKWIqGn1hhuxyi6499E9Ens_PYcIHPYii8/view"
 	},
     "response2": {
@@ -56,7 +56,7 @@
 		"text": "go into the optional fixes folder and run the `fix startup issues` file\nproceed through the setups\n-# [fixstartupissues.webp](https://metriccepheid.online/media/gifs/fixstartupissues.webp)"
 	},
 	"response14": {
-		"triggers": ["archive"],
+		"triggers": ["mhxarchive"],
 		"text": "Want to learn more about Harmonix games? Check out the [[Archive]](https://docs.google.com/spreadsheets/d/1nMnaiGtHLin-BVsBqc7_vNysCui0jy8oYY-UICtHidg/)",
 		"files": []
 	},
