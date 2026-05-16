@@ -261,7 +261,7 @@
     },
     "response114": {
     	"triggers": ["alltaps", "kbstrum", "forcetaps"],
-    	"text": "If you want to play BetterGH3 or GH3+ PC with your keyboard, download this `.dll` file and drag it into the `PLUGINS` folder.\n-# [tapplugin.gif](https://metriccepheid.online/media/gifs/tapplugin.gif)",
+    	"text": "If you want to play BetterGH3 or GH3+ PC with your keyboard without strumming, download this `.dll` file and drag it into the `PLUGINS` folder.\n-# [tapplugin.gif](https://metriccepheid.online/media/gifs/tapplugin.gif)",
     	"files": ["media/ForceTapNotes.dll"]
     },
     "response115": {
