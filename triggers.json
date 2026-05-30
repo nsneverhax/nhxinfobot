@@ -70,7 +70,7 @@
     },
     "response17": {
         "triggers": ["ghtcp", "gh3tcp"],
-        "text": "# Use [Honeycomb](https://discord.com/channels/1327303937241649162/1338926496676581376) instead\nIf you use GHTCP on an existing install of BetterGH3, you have effectively destroyed your install and the best way to fix it is by reinstalling BetterGH3."
+        "text": "# Use [Honeycomb](https://discord.com/channels/1327303937241649162/1338926496676581376) instead\nIf you use GHTCP on an existing install of BetterGH3, you have effectively destroyed your install and the best way to fix it is by reinstalling BetterGH3.\nThe reason why we don't want people using GHTCP on BetterGH3 is due to GHTCP applying its own Q mods on top of GH3 causing BetterGH3 to get disabled removing all fixes and quality-of-life."
     },
     "response19": {
         "triggers": ["lore"],
